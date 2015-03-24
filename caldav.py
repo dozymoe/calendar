@@ -297,7 +297,7 @@ def do_POST(self):
             DATA = '%s\n' % dc._get_caldav_post(uri, body, ct)
         except DAV_Error, (ec, dd):
             return self.send_status(ec)
-        self.send_body_chunks(DATA, '200', 'OK', 'OK')
+        self.send_body_chunks(DATA, 200, 'OK', 'OK')
         return
     return _prev_do_POST(self)
 
