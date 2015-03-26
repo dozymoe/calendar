@@ -114,24 +114,6 @@ class Calendar(ModelSQL, ModelView):
             ical.vevent_list.extend(ical2.vevent_list)
         return ical
 
-    @property
-    def _fbtype(self):
-        '''
-        Return the freebusy type for give transparent and status
-        '''
-        if self.transp == 'opaque':
-            if not self.status or self.status == 'confirmed':
-                fbtype = 'BUSY'
-            elif self.status == 'cancelled':
-                fbtype = 'FREE'
-            elif self.status == 'tentative':
-                fbtype = 'BUSY-TENTATIVE'
-            else:
-                fbtype = 'BUSY'
-        else:
-            fbtype = 'FREE'
-        return fbtype
-
     @classmethod
     def freebusy(cls, calendar_id, dtstart, dtend):
         '''
@@ -542,6 +524,24 @@ class Event(ModelSQL, ModelView):
     @classmethod
     def search_calendar_field(cls, name, clause):
         return [('calendar.' + name[9:],) + tuple(clause[1:])]
+
+    @property
+    def _fbtype(self):
+        '''
+        Return the freebusy type for give transparent and status
+        '''
+        if self.transp == 'opaque':
+            if not self.status or self.status == 'confirmed':
+                fbtype = 'BUSY'
+            elif self.status == 'cancelled':
+                fbtype = 'FREE'
+            elif self.status == 'tentative':
+                fbtype = 'BUSY-TENTATIVE'
+            else:
+                fbtype = 'BUSY'
+        else:
+            fbtype = 'FREE'
+        return fbtype
 
     def check_recurrence(self):
         '''
