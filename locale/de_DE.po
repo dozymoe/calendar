@@ -263,18 +263,6 @@ msgctxt "field:calendar.event,calendar:"
 msgid "Calendar"
 msgstr "Kalender"
 
-msgctxt "field:calendar.event,calendar_owner:"
-msgid "Owner"
-msgstr "Besitzer"
-
-msgctxt "field:calendar.event,calendar_read_users:"
-msgid "Read Users"
-msgstr "Benutzer mit Leseberechtigung"
-
-msgctxt "field:calendar.event,calendar_write_users:"
-msgid "Write Users"
-msgstr "Benutzer mit Schreibberechtigung"
-
 msgctxt "field:calendar.event,categories:"
 msgid "Categories"
 msgstr "Kategorien"
@@ -497,7 +485,7 @@ msgstr "Erstellt durch"
 
 msgctxt "field:calendar.event.exdate,date:"
 msgid "Is Date"
-msgstr "Als Datum"
+msgstr "Nur Datum verwenden"
 
 msgctxt "field:calendar.event.exdate,datetime:"
 msgid "Date"
@@ -597,7 +585,7 @@ msgstr "Bis Datum"
 
 msgctxt "field:calendar.event.exrule,until_date:"
 msgid "Is Date"
-msgstr "Als Datum"
+msgstr "Nur Datum verwenden"
 
 msgctxt "field:calendar.event.exrule,wkst:"
 msgid "Week Day"
@@ -621,7 +609,7 @@ msgstr "Erstellt durch"
 
 msgctxt "field:calendar.event.rdate,date:"
 msgid "Is Date"
-msgstr "Als Datum"
+msgstr "Nur Datum verwenden"
 
 msgctxt "field:calendar.event.rdate,datetime:"
 msgid "Date"
@@ -721,7 +709,7 @@ msgstr "Bis Datum"
 
 msgctxt "field:calendar.event.rrule,until_date:"
 msgid "Is Date"
-msgstr "Als Datum"
+msgstr "Nur Datum verwenden"
 
 msgctxt "field:calendar.event.rrule,wkst:"
 msgid "Week Day"
@@ -1099,6 +1087,10 @@ msgctxt "view:calendar.event.exdate:"
 msgid "Exception Dates"
 msgstr "Ausnahmedaten"
 
+msgctxt "view:calendar.event.exdate:"
+msgid "Time"
+msgstr "Zeit"
+
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rule"
 msgstr "Ausnahmeregel"
@@ -1114,6 +1106,10 @@ msgstr "Wiederholungsdatum"
 msgctxt "view:calendar.event.rdate:"
 msgid "Recurrence Dates"
 msgstr "Wiederholungsdaten"
+
+msgctxt "view:calendar.event.rdate:"
+msgid "Time"
+msgstr "Zeit"
 
 msgctxt "view:calendar.event.rrule:"
 msgid "Recurrence Rule"
@@ -1132,6 +1128,10 @@ msgid "Categories"
 msgstr "Kategorien"
 
 msgctxt "view:calendar.event:"
+msgid "End Time"
+msgstr "Endzeit"
+
+msgctxt "view:calendar.event:"
 msgid "Event"
 msgstr "Termin"
 
@@ -1146,6 +1146,10 @@ msgstr "Allgemein"
 msgctxt "view:calendar.event:"
 msgid "Occurences"
 msgstr "Ereignisse"
+
+msgctxt "view:calendar.event:"
+msgid "Start Time"
+msgstr "Anfangszeit"
 
 msgctxt "view:calendar.location:"
 msgid "Location"
