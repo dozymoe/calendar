@@ -262,18 +262,6 @@ msgctxt "field:calendar.event,calendar:"
 msgid "Calendar"
 msgstr "Koledar"
 
-msgctxt "field:calendar.event,calendar_owner:"
-msgid "Owner"
-msgstr "Imetnik"
-
-msgctxt "field:calendar.event,calendar_read_users:"
-msgid "Read Users"
-msgstr "Bralci"
-
-msgctxt "field:calendar.event,calendar_write_users:"
-msgid "Write Users"
-msgstr "Zapisovalci"
-
 msgctxt "field:calendar.event,categories:"
 msgid "Categories"
 msgstr "Kategorije"
@@ -1090,6 +1078,10 @@ msgctxt "view:calendar.event.exdate:"
 msgid "Exception Dates"
 msgstr "Izjemni datumi"
 
+msgctxt "view:calendar.event.exdate:"
+msgid "Time"
+msgstr "Čas"
+
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rule"
 msgstr "Izjemno pravilo"
@@ -1105,6 +1097,10 @@ msgstr "Datum ponovitve"
 msgctxt "view:calendar.event.rdate:"
 msgid "Recurrence Dates"
 msgstr "Datumi ponovitev"
+
+msgctxt "view:calendar.event.rdate:"
+msgid "Time"
+msgstr "Čas"
 
 msgctxt "view:calendar.event.rrule:"
 msgid "Recurrence Rule"
@@ -1123,6 +1119,10 @@ msgid "Categories"
 msgstr "Kategorije"
 
 msgctxt "view:calendar.event:"
+msgid "End Time"
+msgstr "Konec"
+
+msgctxt "view:calendar.event:"
 msgid "Event"
 msgstr "Dogodek"
 
@@ -1137,6 +1137,10 @@ msgstr "Splošno"
 msgctxt "view:calendar.event:"
 msgid "Occurences"
 msgstr "Pojavljanje"
+
+msgctxt "view:calendar.event:"
+msgid "Start Time"
+msgstr "Začetek"
 
 msgctxt "view:calendar.location:"
 msgid "Location"
