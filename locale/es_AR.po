@@ -274,18 +274,6 @@ msgctxt "field:calendar.event,calendar:"
 msgid "Calendar"
 msgstr "Calendario"
 
-msgctxt "field:calendar.event,calendar_owner:"
-msgid "Owner"
-msgstr "Dueño"
-
-msgctxt "field:calendar.event,calendar_read_users:"
-msgid "Read Users"
-msgstr "Usuarios con lectura"
-
-msgctxt "field:calendar.event,calendar_write_users:"
-msgid "Write Users"
-msgstr "Usuarios con escritura"
-
 msgctxt "field:calendar.event,categories:"
 msgid "Categories"
 msgstr "Categorías"
@@ -312,7 +300,7 @@ msgstr "Fecha fin"
 
 msgctxt "field:calendar.event,dtstart:"
 msgid "Start Date"
-msgstr "Fecha inicio"
+msgstr "Fecha inicial"
 
 msgctxt "field:calendar.event,exdates:"
 msgid "Exception Dates"
@@ -1104,6 +1092,10 @@ msgctxt "view:calendar.event.exdate:"
 msgid "Exception Dates"
 msgstr "Fechas excluidas"
 
+msgctxt "view:calendar.event.exdate:"
+msgid "Time"
+msgstr "Tiempo"
+
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rule"
 msgstr "Regla de excepción"
@@ -1119,6 +1111,10 @@ msgstr "Fecha de recurrencia"
 msgctxt "view:calendar.event.rdate:"
 msgid "Recurrence Dates"
 msgstr "Fechas de recurrencia"
+
+msgctxt "view:calendar.event.rdate:"
+msgid "Time"
+msgstr "Tiempo"
 
 msgctxt "view:calendar.event.rrule:"
 msgid "Recurrence Rule"
@@ -1137,6 +1133,10 @@ msgid "Categories"
 msgstr "Categorías"
 
 msgctxt "view:calendar.event:"
+msgid "End Time"
+msgstr "Hora de finalización"
+
+msgctxt "view:calendar.event:"
 msgid "Event"
 msgstr "Evento"
 
@@ -1151,6 +1151,10 @@ msgstr "General"
 msgctxt "view:calendar.event:"
 msgid "Occurences"
 msgstr "Ocurrencias"
+
+msgctxt "view:calendar.event:"
+msgid "Start Time"
+msgstr "Hora de inicio"
 
 msgctxt "view:calendar.location:"
 msgid "Location"
