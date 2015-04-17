@@ -270,18 +270,6 @@ msgctxt "field:calendar.event,calendar:"
 msgid "Calendar"
 msgstr "Calendari"
 
-msgctxt "field:calendar.event,calendar_owner:"
-msgid "Owner"
-msgstr "Propietari"
-
-msgctxt "field:calendar.event,calendar_read_users:"
-msgid "Read Users"
-msgstr "Usuaris amb permisos de lectura"
-
-msgctxt "field:calendar.event,calendar_write_users:"
-msgid "Write Users"
-msgstr "Usuaris amb permisos d'escriptura"
-
 msgctxt "field:calendar.event,categories:"
 msgid "Categories"
 msgstr "Categories"
@@ -308,7 +296,7 @@ msgstr "Data final"
 
 msgctxt "field:calendar.event,dtstart:"
 msgid "Start Date"
-msgstr "Data inici"
+msgstr "Data inicial"
 
 msgctxt "field:calendar.event,exdates:"
 msgid "Exception Dates"
@@ -902,7 +890,7 @@ msgstr "Cancel·lat"
 
 msgctxt "selection:calendar.event,status:"
 msgid "Confirmed"
-msgstr "Confirmada"
+msgstr "Confirmat"
 
 msgctxt "selection:calendar.event,status:"
 msgid "Tentative"
@@ -1100,6 +1088,10 @@ msgctxt "view:calendar.event.exdate:"
 msgid "Exception Dates"
 msgstr "Dates excloses"
 
+msgctxt "view:calendar.event.exdate:"
+msgid "Time"
+msgstr "Temps"
+
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rule"
 msgstr "Regla d'excepció"
@@ -1115,6 +1107,10 @@ msgstr "Data de recurrència"
 msgctxt "view:calendar.event.rdate:"
 msgid "Recurrence Dates"
 msgstr "Dates de recurrència"
+
+msgctxt "view:calendar.event.rdate:"
+msgid "Time"
+msgstr "Temps"
 
 msgctxt "view:calendar.event.rrule:"
 msgid "Recurrence Rule"
@@ -1133,6 +1129,10 @@ msgid "Categories"
 msgstr "Categories"
 
 msgctxt "view:calendar.event:"
+msgid "End Time"
+msgstr "Temps finalització"
+
+msgctxt "view:calendar.event:"
 msgid "Event"
 msgstr "Esdeveniment"
 
@@ -1147,6 +1147,10 @@ msgstr "General"
 msgctxt "view:calendar.event:"
 msgid "Occurences"
 msgstr "Ocurrències"
+
+msgctxt "view:calendar.event:"
+msgid "Start Time"
+msgstr "Hora d'inici"
 
 msgctxt "view:calendar.location:"
 msgid "Location"
