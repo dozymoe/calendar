@@ -262,18 +262,6 @@ msgctxt "field:calendar.event,calendar:"
 msgid "Calendar"
 msgstr "Календарь"
 
-msgctxt "field:calendar.event,calendar_owner:"
-msgid "Owner"
-msgstr "Владелец"
-
-msgctxt "field:calendar.event,calendar_read_users:"
-msgid "Read Users"
-msgstr "Пользователи могут читать"
-
-msgctxt "field:calendar.event,calendar_write_users:"
-msgid "Write Users"
-msgstr "Пользователи могут писать"
-
 msgctxt "field:calendar.event,categories:"
 msgid "Categories"
 msgstr "Категория"

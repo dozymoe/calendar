@@ -875,6 +875,10 @@ msgid "Public"
 msgstr "Público"
 
 msgctxt "selection:calendar.event,status:"
+msgid ""
+msgstr ""
+
+msgctxt "selection:calendar.event,status:"
 msgid "Cancelled"
 msgstr "Cancelado"
 
@@ -893,6 +897,10 @@ msgstr "Opaco"
 msgctxt "selection:calendar.event,transp:"
 msgid "Transparent"
 msgstr "Transparente"
+
+msgctxt "selection:calendar.event.attendee,status:"
+msgid ""
+msgstr ""
 
 msgctxt "selection:calendar.event.attendee,status:"
 msgid "Accepted"
@@ -941,6 +949,10 @@ msgstr "Semanalmente"
 msgctxt "selection:calendar.event.exrule,freq:"
 msgid "Yearly"
 msgstr "Anualmente"
+
+msgctxt "selection:calendar.event.exrule,wkst:"
+msgid ""
+msgstr ""
 
 msgctxt "selection:calendar.event.exrule,wkst:"
 msgid "Friday"
@@ -997,6 +1009,10 @@ msgstr "Semanalmente"
 msgctxt "selection:calendar.event.rrule,freq:"
 msgid "Yearly"
 msgstr "Anualmente"
+
+msgctxt "selection:calendar.event.rrule,wkst:"
+msgid ""
+msgstr ""
 
 msgctxt "selection:calendar.event.rrule,wkst:"
 msgid "Friday"

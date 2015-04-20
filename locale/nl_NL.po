@@ -271,18 +271,6 @@ msgctxt "field:calendar.event,calendar:"
 msgid "Calendar"
 msgstr ""
 
-msgctxt "field:calendar.event,calendar_owner:"
-msgid "Owner"
-msgstr ""
-
-msgctxt "field:calendar.event,calendar_read_users:"
-msgid "Read Users"
-msgstr ""
-
-msgctxt "field:calendar.event,calendar_write_users:"
-msgid "Write Users"
-msgstr ""
-
 #, fuzzy
 msgctxt "field:calendar.event,categories:"
 msgid "Categories"
