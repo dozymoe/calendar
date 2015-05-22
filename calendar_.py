@@ -1320,7 +1320,7 @@ class AttendeeMixin:
         res = None
         if self.attendee:
             res = vobject.base.textLineToContentLine(
-                    str(self.attendee).replace('\r\n ', ''))
+                    str(self.attendee).decode('utf-8').replace('\r\n ', ''))
         else:
             res = vobject.base.ContentLine('ATTENDEE', [], '')
 
