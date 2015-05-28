@@ -14,11 +14,11 @@ from proteus import config, Model, Wizard
 
 
 def install_module(name, config):
-    Module = Model.get('ir.module.module')
+    Module = Model.get('ir.module')
     module, = Module.find([('name', '=', name)])
     if module.state != 'installed':
         Module.install([module.id], config.context)
-        Wizard('ir.module.module.install_upgrade').execute('upgrade')
+        Wizard('ir.module.install_upgrade').execute('upgrade')
 
 
 def configure_user(login, config):
