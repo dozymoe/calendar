@@ -62,10 +62,10 @@ def _get_caldav_calendar_description(self, uri):
         Collection = pool.get('webdav.collection')
     except KeyError:
         raise DAV_NotFound
+    if not getattr(Collection, 'get_calendar_description', None):
+        raise DAV_NotFound
     try:
         res = Collection.get_calendar_description(dburi, cache=CACHE)
-    except AttributeError:
-        raise DAV_NotFound
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
@@ -87,10 +87,10 @@ def _get_caldav_calendar_data(self, uri):
         Collection = pool.get('webdav.collection')
     except KeyError:
         raise DAV_NotFound
+    if not getattr(Collection, 'get_calendar_data', None):
+        raise DAV_NotFound
     try:
         res = Collection.get_calendar_data(dburi, cache=CACHE)
-    except AttributeError:
-        raise DAV_NotFound
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
@@ -111,10 +111,10 @@ def _get_caldav_calendar_home_set(self, uri):
         Collection = pool.get('webdav.collection')
     except KeyError:
         raise DAV_NotFound
+    if not getattr(Collection, 'get_calendar_home_set', None):
+        raise DAV_NotFound
     try:
         res = Collection.get_calendar_home_set(dburi, cache=CACHE)
-    except AttributeError:
-        raise DAV_NotFound
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
@@ -145,10 +145,10 @@ def _get_caldav_calendar_user_address_set(self, uri):
         Collection = pool.get('webdav.collection')
     except KeyError:
         raise DAV_NotFound
+    if not getattr(Collection, 'get_calendar_user_address_set', None):
+        raise DAV_NotFound
     try:
         res = Collection.get_calendar_user_address_set(dburi, cache=CACHE)
-    except AttributeError:
-        raise DAV_NotFound
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
@@ -175,10 +175,10 @@ def _get_caldav_schedule_inbox_URL(self, uri):
         Collection = pool.get('webdav.collection')
     except KeyError:
         raise DAV_NotFound
+    if not getattr(Collection, 'get_schedule_inbox_URL', None):
+        raise DAV_NotFound
     try:
         res = Collection.get_schedule_inbox_URL(dburi, cache=CACHE)
-    except AttributeError:
-        raise DAV_NotFound
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
@@ -207,10 +207,10 @@ def _get_caldav_schedule_outbox_URL(self, uri):
         Collection = pool.get('webdav.collection')
     except KeyError:
         raise DAV_NotFound
+    if not getattr(Collection, 'get_schedule_outbox_URL', None):
+        raise DAV_NotFound
     try:
         res = Collection.get_schedule_outbox_URL(dburi, cache=CACHE)
-    except AttributeError:
-        raise DAV_NotFound
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
@@ -259,10 +259,10 @@ def _get_caldav_post(self, uri, body, contenttype=''):
         raise DAV_Forbidden
     pool = Pool(Transaction().cursor.database_name)
     Calendar = pool.get('calendar.calendar')
+    if not getattr(Calendar, 'post', None):
+        raise DAV_NotFound
     try:
         res = Calendar.post(dburi, body)
-    except AttributeError:
-        raise DAV_NotFound
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
