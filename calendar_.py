@@ -6,9 +6,9 @@ import dateutil.tz
 import pytz
 import datetime
 import xml.dom.minidom
-from sql import Table, Column
+from sql import Table, Column, Null
 
-from trytond.model import Model, ModelSQL, ModelView, fields
+from trytond.model import Model, ModelSQL, ModelView, fields, Check, Unique
 from trytond.tools import reduce_ids, grouped_slice
 from trytond import backend
 from trytond.pyson import If, Bool, Eval, PYSONEncoder
@@ -43,10 +43,11 @@ class Calendar(ModelSQL, ModelView):
     @classmethod
     def __setup__(cls):
         super(Calendar, cls).__setup__()
+        t = cls.__table__()
         cls._sql_constraints = [
-            ('name_uniq', 'UNIQUE(name)',
+            ('name_uniq', Unique(t, t.name),
                 'The name of calendar must be unique.'),
-            ('owner_uniq', 'UNIQUE(owner)',
+            ('owner_uniq', Unique(t, t.owner),
                 'A user can have only one calendar.'),
             ]
         cls._order.insert(0, ('name', 'ASC'))
@@ -354,8 +355,9 @@ class Category(ModelSQL, ModelView):
     @classmethod
     def __setup__(cls):
         super(Category, cls).__setup__()
+        t = cls.__table__()
         cls._sql_constraints = [
-            ('name_uniq', 'UNIQUE(name)',
+            ('name_uniq', Unique(t, t.name),
                 'The name of calendar category must be unique.'),
             ]
         cls._order.insert(0, ('name', 'ASC'))
@@ -369,8 +371,9 @@ class Location(ModelSQL, ModelView):
     @classmethod
     def __setup__(cls):
         super(Location, cls).__setup__()
+        t = cls.__table__()
         cls._sql_constraints = [
-            ('name_uniq', 'UNIQUE(name)',
+            ('name_uniq', Unique(t, t.name),
                 'The name of calendar location must be unique.'),
             ]
         cls._order.insert(0, ('name', 'ASC'))
@@ -459,8 +462,10 @@ class Event(ModelSQL, ModelView):
     @classmethod
     def __setup__(cls):
         super(Event, cls).__setup__()
+        t = cls.__table__()
         cls._sql_constraints = [
-            ('uuid_recurrence_uniq', 'UNIQUE(uuid, calendar, recurrence)',
+            ('uuid_recurrence_uniq',
+                Unique(t, t.uuid, t.calendar, t.recurrence),
                 'UUID and recurrence must be unique in a calendar.'),
             ]
         cls._error_messages.update({
@@ -1671,9 +1676,11 @@ class RRuleMixin(Model):
     @classmethod
     def __setup__(cls):
         super(RRuleMixin, cls).__setup__()
+        t = cls.__table__()
         cls._sql_constraints += [
             ('until_count_only_one',
-                'CHECK(until IS NULL OR count IS NULL OR count = 0)',
+                Check(t,
+                    (t.until == Null) | (t.count == Null) | (t.count == 0)),
                 'Only one of "until" and "count" can be set.'),
             ]
         cls._error_messages.update({

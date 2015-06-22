@@ -42,7 +42,7 @@ if minor_version % 2:
             name[8:], name, version))
 
 requires = ['vobject >= 0.8.0', 'PyWebDAV >= 0.9.8', 'python-dateutil', 'pytz',
-    'python-sql']
+    'python-sql >= 0.4']
 for dep in info.get('depends', []):
     if not re.match(r'(ir|res|webdav)(\W|$)', dep):
         requires.append(get_require_version('trytond_%s' % dep))
