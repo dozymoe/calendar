@@ -1048,7 +1048,6 @@ class Event(ModelSQL, ModelView):
         Return an iCalendar instance of vobject for event
         '''
         if self.timezone:
-            tzevent = pytz.timezone(self.timezone)
             tzevent = dateutil.tz.gettz(self.timezone)
         else:
             tzevent = tzlocal
