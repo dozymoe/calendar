@@ -882,7 +882,7 @@ msgstr "Públic"
 
 msgctxt "selection:calendar.event,status:"
 msgid ""
-msgstr ""
+msgstr "Cancel·lat"
 
 msgctxt "selection:calendar.event,status:"
 msgid "Cancelled"
@@ -1090,7 +1090,7 @@ msgstr "Dates excloses"
 
 msgctxt "view:calendar.event.exdate:"
 msgid "Time"
-msgstr "Temps"
+msgstr "Hora"
 
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rule"
@@ -1110,7 +1110,7 @@ msgstr "Dates de recurrència"
 
 msgctxt "view:calendar.event.rdate:"
 msgid "Time"
-msgstr "Temps"
+msgstr "Hora"
 
 msgctxt "view:calendar.event.rrule:"
 msgid "Recurrence Rule"

@@ -1112,6 +1112,10 @@ msgctxt "view:calendar.event.exdate:"
 msgid "Exception Dates"
 msgstr ""
 
+msgctxt "view:calendar.event.exdate:"
+msgid "Time"
+msgstr ""
+
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rule"
 msgstr ""
@@ -1126,6 +1130,10 @@ msgstr ""
 
 msgctxt "view:calendar.event.rdate:"
 msgid "Recurrence Dates"
+msgstr ""
+
+msgctxt "view:calendar.event.rdate:"
+msgid "Time"
 msgstr ""
 
 msgctxt "view:calendar.event.rrule:"
@@ -1146,6 +1154,10 @@ msgid "Categories"
 msgstr "Categorieën"
 
 msgctxt "view:calendar.event:"
+msgid "End Time"
+msgstr ""
+
+msgctxt "view:calendar.event:"
 msgid "Event"
 msgstr ""
 
@@ -1160,6 +1172,10 @@ msgstr "Algemeen"
 
 msgctxt "view:calendar.event:"
 msgid "Occurences"
+msgstr ""
+
+msgctxt "view:calendar.event:"
+msgid "Start Time"
 msgstr ""
 
 msgctxt "view:calendar.location:"

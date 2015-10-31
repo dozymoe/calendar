@@ -1099,6 +1099,10 @@ msgctxt "view:calendar.event.exdate:"
 msgid "Exception Dates"
 msgstr "Дати на грешките"
 
+msgctxt "view:calendar.event.exdate:"
+msgid "Time"
+msgstr ""
+
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rule"
 msgstr "Правило при грешка"
@@ -1114,6 +1118,10 @@ msgstr "Повтаряща се дата"
 msgctxt "view:calendar.event.rdate:"
 msgid "Recurrence Dates"
 msgstr "Дати на повторяемост"
+
+msgctxt "view:calendar.event.rdate:"
+msgid "Time"
+msgstr ""
 
 msgctxt "view:calendar.event.rrule:"
 msgid "Recurrence Rule"
@@ -1132,6 +1140,10 @@ msgid "Categories"
 msgstr "Категории"
 
 msgctxt "view:calendar.event:"
+msgid "End Time"
+msgstr ""
+
+msgctxt "view:calendar.event:"
 msgid "Event"
 msgstr "Събитие"
 
@@ -1146,6 +1158,10 @@ msgstr "Основен"
 msgctxt "view:calendar.event:"
 msgid "Occurences"
 msgstr "Събития"
+
+msgctxt "view:calendar.event:"
+msgid "Start Time"
+msgstr ""
 
 msgctxt "view:calendar.location:"
 msgid "Location"

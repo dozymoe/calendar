@@ -1092,7 +1092,7 @@ msgstr "Fechas excluidas"
 
 msgctxt "view:calendar.event.exdate:"
 msgid "Time"
-msgstr "Tiempo"
+msgstr "Hora"
 
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rule"
@@ -1112,7 +1112,7 @@ msgstr "Fechas de recurrencia"
 
 msgctxt "view:calendar.event.rdate:"
 msgid "Time"
-msgstr "Tiempo"
+msgstr "Hora"
 
 msgctxt "view:calendar.event.rrule:"
 msgid "Recurrence Rule"

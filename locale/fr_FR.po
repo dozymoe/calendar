@@ -4,7 +4,7 @@ msgstr "Content-Type: text/plain; charset=utf-8\n"
 
 msgctxt "error:calendar.calendar:"
 msgid "A user can have only one calendar."
-msgstr "Un utilisteur ne peut avoir qu'un seul calendrier"
+msgstr "Un utilisateur ne peut avoir qu'un seul calendrier."
 
 msgctxt "error:calendar.calendar:"
 msgid "Calendar name \"%s\" can not end with .ics"
@@ -12,7 +12,7 @@ msgstr "Le nom de calendrier « %s » ne peut terminer par « .ics »"
 
 msgctxt "error:calendar.calendar:"
 msgid "The name of calendar must be unique."
-msgstr "le nom du calendrier doit être unique."
+msgstr "Le nom du calendrier doit être unique."
 
 msgctxt "error:calendar.category:"
 msgid "The name of calendar category must be unique."
@@ -20,15 +20,15 @@ msgstr "Le nom du calendrier doit être unique."
 
 msgctxt "error:calendar.event.exrule:"
 msgid "Invalid \"By Day\" in recurrence rule \"%s\""
-msgstr "« Par jour » invalide dans la règle de récurrence « %s »."
+msgstr "« Par jour » invalide dans la règle de récurrence « %s »"
 
 msgctxt "error:calendar.event.exrule:"
 msgid "Invalid \"By Hour\" in recurrence rule \"%s\""
-msgstr "« Par heure » invalide dans la règle de récurrence « %s »."
+msgstr "« Par heure » invalide dans la règle de récurrence « %s »"
 
 msgctxt "error:calendar.event.exrule:"
 msgid "Invalid \"By Minute\" in recurrence rule \"%s\""
-msgstr "« Par minute » invalide dans la règle de récurrence « %s »."
+msgstr "« Par minute » invalide dans la règle de récurrence « %s »"
 
 msgctxt "error:calendar.event.exrule:"
 msgid "Invalid \"By Month Day\" in recurrence rule \"%s\""
@@ -350,7 +350,7 @@ msgstr "Résumé"
 
 msgctxt "field:calendar.event,timezone:"
 msgid "Timezone"
-msgstr "Fuseau Horaire"
+msgstr "Fuseau horaire"
 
 msgctxt "field:calendar.event,transp:"
 msgid "Time Transparency"
@@ -758,29 +758,33 @@ msgstr "Calendriers"
 
 msgctxt "help:calendar.calendar,owner:"
 msgid "The user must have an email"
-msgstr "L'utilisateur doit avoir une adresse Email"
+msgstr "L'utilisateur doit avoir une adresse E-mail"
 
 msgctxt "help:calendar.event,uuid:"
 msgid "Universally Unique Identifier"
-msgstr "Identificateur unique universel"
+msgstr "Identifiant unique universel"
 
 msgctxt "help:calendar.event.exdate,date:"
 msgid "Ignore time of field \"Date\", but handle as date only."
-msgstr "Ignorer l'heure du champ « Date » et considérer uniquement la date."
+msgstr ""
+"Ignorer l'heure du champ « Date », mais considérer uniquement la date."
 
 msgctxt "help:calendar.event.exrule,until_date:"
 msgid "Ignore time of field \"Until Date\", but handle as date only."
 msgstr ""
-"Ignorer l'heure du champ « Date de fin » et considérer uniquement la date."
+"Ignorer l'heure du champ « Date de fin », mais considérer uniquement la "
+"date."
 
 msgctxt "help:calendar.event.rdate,date:"
 msgid "Ignore time of field \"Date\", but handle as date only."
-msgstr "Ignorer l'heure du champ « Date » et considérer uniquement la date."
+msgstr ""
+"Ignorer l'heure du champ « Date », mais considérer uniquement la date."
 
 msgctxt "help:calendar.event.rrule,until_date:"
 msgid "Ignore time of field \"Until Date\", but handle as date only."
 msgstr ""
-"Ignorer l'heure du champ « Date de fin » et considérer uniquement la date."
+"Ignorer l'heure du champ « Date de fin », mais considérer uniquement la "
+"date."
 
 msgctxt "model:calendar.calendar,name:"
 msgid "Calendar"
@@ -944,7 +948,7 @@ msgstr "Chaque seconde"
 
 msgctxt "selection:calendar.event.exrule,freq:"
 msgid "Weekly"
-msgstr "hebdomadaire"
+msgstr "Hebdomadaire"
 
 msgctxt "selection:calendar.event.exrule,freq:"
 msgid "Yearly"
@@ -1004,7 +1008,7 @@ msgstr "Chaque seconde"
 
 msgctxt "selection:calendar.event.rrule,freq:"
 msgid "Weekly"
-msgstr "hebdomadaire"
+msgstr "Hebdomadaire"
 
 msgctxt "selection:calendar.event.rrule,freq:"
 msgid "Yearly"
