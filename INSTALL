@@ -6,6 +6,7 @@ Prerequisites
 
  * Python 2.7 or later (http://www.python.org/)
  * trytond (http://www.tryton.org/)
+ * trytond_webdav (http://www.tryton.org/)
  * vobject >= 0.8.0 (http://vobject.skyhouseconsulting.com/)
  * pywebdav >= 0.9.8 (http://sourceforge.net/projects/pywebdav/)
  * python-dateutil (http://labix.org/python-dateutil)
