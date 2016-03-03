@@ -635,7 +635,8 @@ class Event(ModelSQL, ModelView):
         pool = Pool()
         Calendar = pool.get('calendar.calendar')
         Collection = pool.get('webdav.collection')
-        cursor = Transaction().cursor
+        transaction = Transaction()
+        cursor = transaction.connection.cursor()
 
         actions = iter(args)
         args = []
@@ -648,7 +649,7 @@ class Event(ModelSQL, ModelView):
         super(Event, cls).write(*args)
 
         table = cls.__table__()
-        for sub_ids in grouped_slice(events, cursor.IN_MAX):
+        for sub_ids in grouped_slice(events, transaction.database.IN_MAX):
             red_sql = reduce_ids(table.id, sub_ids)
             cursor.execute(*table.update(
                     columns=[table.sequence],
@@ -1223,12 +1224,12 @@ class EventAlarm(AlarmMixin, ModelSQL, ModelView):
     @classmethod
     def __register__(cls, module_name):
         TableHandler = backend.get('TableHandler')
-        cursor = Transaction().cursor
+        cursor = Transaction().connection.cursor()
         sql_table = cls.__table__()
 
         super(EventAlarm, cls).__register__(module_name)
 
-        table = TableHandler(cursor, cls, module_name)
+        table = TableHandler(cls, module_name)
 
         # Migration from 2.6: Remove inherits calendar.alarm
         if table.column_exist('calendar_alarm'):
@@ -1352,12 +1353,12 @@ class EventAttendee(AttendeeMixin, ModelSQL, ModelView):
     @classmethod
     def __register__(cls, module_name):
         TableHandler = backend.get('TableHandler')
-        cursor = Transaction().cursor
+        cursor = Transaction().connection.cursor()
         sql_table = cls.__table__()
 
         super(EventAttendee, cls).__register__(module_name)
 
-        table = TableHandler(cursor, cls, module_name)
+        table = TableHandler(cls, module_name)
 
         # Migration from 2.6: Remove inherits calendar.attendee
         if table.column_exist('calendar_attendee'):
@@ -1569,17 +1570,17 @@ class EventRDate(DateMixin, ModelSQL, ModelView):
     @classmethod
     def __register__(cls, module_name):
         TableHandler = backend.get('TableHandler')
-        cursor = Transaction().cursor
+        cursor = Transaction().connection.cursor()
         sql_table = cls.__table__()
         # Migration from 1.4: calendar_rdate renamed to calendar_date
-        table = TableHandler(cursor, cls, module_name)
+        table = TableHandler(cls, module_name)
         old_column = 'calendar_rdate'
         if table.column_exist(old_column):
             table.column_rename(old_column, 'calendar_date')
 
         super(EventRDate, cls).__register__(module_name)
 
-        table = TableHandler(cursor, cls, module_name)
+        table = TableHandler(cls, module_name)
 
         # Migration from 2.6: Remove inherits calendar.date
         if table.column_exist('calendar_date'):
@@ -1886,12 +1887,12 @@ class EventRRule(RRuleMixin, ModelSQL, ModelView):
     @classmethod
     def __register__(cls, module_name):
         TableHandler = backend.get('TableHandler')
-        cursor = Transaction().cursor
+        cursor = Transaction().connection.cursor()
         sql_table = cls.__table__()
 
         super(EventRRule, cls).__register__(module_name)
 
-        table = TableHandler(cursor, cls, module_name)
+        table = TableHandler(cls, module_name)
 
         # Migration from 2.6: Remove inherits calendar.rrule
         if table.column_exist('calendar_rrule'):

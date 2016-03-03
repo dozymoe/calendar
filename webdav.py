@@ -172,7 +172,7 @@ class Collection:
                     if not dbname:
                         continue
                     dbname == urllib.unquote_plus(dbname)
-                    if dbname != Transaction().cursor.database_name:
+                    if dbname != Transaction().database.name:
                         continue
                     if uri:
                         uri = urllib.unquote_plus(uri)
@@ -287,7 +287,7 @@ class Collection:
                 else:
                     ids = [calendar_id]
                 res = None
-                cursor = Transaction().cursor
+                cursor = Transaction().connection.cursor()
                 for sub_ids in grouped_slice(ids):
                     red_sql = reduce_ids(calendar.id, sub_ids)
                     cursor.execute(*calendar.select(calendar.id,
@@ -319,7 +319,7 @@ class Collection:
                     else:
                         ids = [event_id]
                     res = None
-                    cursor = Transaction().cursor
+                    cursor = Transaction().connection.cursor()
                     for sub_ids in grouped_slice(ids):
                         red_sql = reduce_ids(event.id, sub_ids)
                         cursor.execute(*event.select(event.id,
@@ -345,7 +345,8 @@ class Collection:
         calendar = Calendar.__table__()
         event = Event.__table__()
 
-        cursor = Transaction().cursor
+        transaction = Transaction()
+        cursor = transaction.connection.cursor()
         calendar_id = cls.calendar(uri)
         if calendar_id:
             if not (uri[10:].split('/', 1) + [None])[1]:
@@ -394,7 +395,8 @@ class Collection:
                     else:
                         ids = [event_id]
                     res = None
-                    for sub_ids in grouped_slice(ids, cursor.IN_MAX / 2):
+                    for sub_ids in grouped_slice(ids,
+                            transaction.database.IN_MAX / 2):
                         red_id_sql = reduce_ids(event.id, sub_ids)
                         red_parent_sql = reduce_ids(event.parent, sub_ids)
                         cursor.execute(*event.select(
@@ -553,7 +555,7 @@ class Collection:
                 values = Event.ical2values(None, ical, calendar_id)
                 event, = Event.create([values])
                 calendar = Calendar(calendar_id)
-                return (Transaction().cursor.database_name + '/Calendars/' +
+                return (Transaction().database.name + '/Calendars/' +
                         calendar.name + '/' + event.uuid + '.ics')
             else:
                 ical = vobject.readOne(data)

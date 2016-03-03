@@ -57,7 +57,7 @@ def _get_caldav_calendar_description(self, uri):
     dbname, dburi = self._get_dburi(uri)
     if not dbname:
         raise DAV_NotFound
-    pool = Pool(Transaction().cursor.database_name)
+    pool = Pool(Transaction().database.name)
     try:
         Collection = pool.get('webdav.collection')
     except KeyError:
@@ -82,7 +82,7 @@ def _get_caldav_calendar_data(self, uri):
     dbname, dburi = self._get_dburi(uri)
     if not dbname:
         raise DAV_NotFound
-    pool = Pool(Transaction().cursor.database_name)
+    pool = Pool(Transaction().database.name)
     try:
         Collection = pool.get('webdav.collection')
     except KeyError:
@@ -106,7 +106,7 @@ def _get_caldav_calendar_home_set(self, uri):
     dbname, dburi = self._get_dburi(uri)
     if not dbname:
         raise DAV_NotFound
-    pool = Pool(Transaction().cursor.database_name)
+    pool = Pool(Transaction().database.name)
     try:
         Collection = pool.get('webdav.collection')
     except KeyError:
@@ -140,7 +140,7 @@ def _get_caldav_calendar_user_address_set(self, uri):
     dbname, dburi = self._get_dburi(uri)
     if not dbname:
         raise DAV_NotFound
-    pool = Pool(Transaction().cursor.database_name)
+    pool = Pool(Transaction().database.name)
     try:
         Collection = pool.get('webdav.collection')
     except KeyError:
@@ -170,7 +170,7 @@ def _get_caldav_schedule_inbox_URL(self, uri):
     dbname, dburi = self._get_dburi(uri)
     if not dbname:
         raise DAV_NotFound
-    pool = Pool(Transaction().cursor.database_name)
+    pool = Pool(Transaction().database.name)
     try:
         Collection = pool.get('webdav.collection')
     except KeyError:
@@ -202,7 +202,7 @@ def _get_caldav_schedule_outbox_URL(self, uri):
     dbname, dburi = self._get_dburi(uri)
     if not dbname:
         raise DAV_NotFound
-    pool = Pool(Transaction().cursor.database_name)
+    pool = Pool(Transaction().database.name)
     try:
         Collection = pool.get('webdav.collection')
     except KeyError:
@@ -257,7 +257,7 @@ def _get_caldav_post(self, uri, body, contenttype=''):
     dbname, dburi = self._get_dburi(uri)
     if not dbname:
         raise DAV_Forbidden
-    pool = Pool(Transaction().cursor.database_name)
+    pool = Pool(Transaction().database.name)
     Calendar = pool.get('calendar.calendar')
     if not getattr(Calendar, 'post', None):
         raise DAV_NotFound
