@@ -8,7 +8,7 @@ from pywebdav.lib import propfind
 from pywebdav.lib.errors import DAV_NotFound, DAV_Error, DAV_Forbidden
 from pywebdav.lib.utils import get_uriparentpath
 from pywebdav.lib.constants import DAV_VERSION_1, DAV_VERSION_2
-from trytond.modules.webdav.protocol import TrytonDAVInterface, CACHE, \
+from trytond.modules.webdav.protocol import TrytonDAVInterface, LOCAL, \
         WebDAVAuthRequestHandler
 from trytond.pool import Pool
 from trytond.transaction import Transaction
@@ -65,7 +65,7 @@ def _get_caldav_calendar_description(self, uri):
     if not getattr(Collection, 'get_calendar_description', None):
         raise DAV_NotFound
     try:
-        res = Collection.get_calendar_description(dburi, cache=CACHE)
+        res = Collection.get_calendar_description(dburi, cache=LOCAL.cache)
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
@@ -90,7 +90,7 @@ def _get_caldav_calendar_data(self, uri):
     if not getattr(Collection, 'get_calendar_data', None):
         raise DAV_NotFound
     try:
-        res = Collection.get_calendar_data(dburi, cache=CACHE)
+        res = Collection.get_calendar_data(dburi, cache=LOCAL.cache)
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
@@ -114,7 +114,7 @@ def _get_caldav_calendar_home_set(self, uri):
     if not getattr(Collection, 'get_calendar_home_set', None):
         raise DAV_NotFound
     try:
-        res = Collection.get_calendar_home_set(dburi, cache=CACHE)
+        res = Collection.get_calendar_home_set(dburi, cache=LOCAL.cache)
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
@@ -148,7 +148,8 @@ def _get_caldav_calendar_user_address_set(self, uri):
     if not getattr(Collection, 'get_calendar_user_address_set', None):
         raise DAV_NotFound
     try:
-        res = Collection.get_calendar_user_address_set(dburi, cache=CACHE)
+        res = Collection.get_calendar_user_address_set(
+            dburi, cache=LOCAL.cache)
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
@@ -178,7 +179,7 @@ def _get_caldav_schedule_inbox_URL(self, uri):
     if not getattr(Collection, 'get_schedule_inbox_URL', None):
         raise DAV_NotFound
     try:
-        res = Collection.get_schedule_inbox_URL(dburi, cache=CACHE)
+        res = Collection.get_schedule_inbox_URL(dburi, cache=LOCAL.cache)
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
@@ -210,7 +211,7 @@ def _get_caldav_schedule_outbox_URL(self, uri):
     if not getattr(Collection, 'get_schedule_outbox_URL', None):
         raise DAV_NotFound
     try:
-        res = Collection.get_schedule_outbox_URL(dburi, cache=CACHE)
+        res = Collection.get_schedule_outbox_URL(dburi, cache=LOCAL.cache)
     except DAV_Error, exception:
         self._log_exception(exception)
         raise
