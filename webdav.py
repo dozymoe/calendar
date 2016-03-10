@@ -2,6 +2,7 @@
 # this repository contains the full copyright notices and license terms.
 import vobject
 import urllib
+from urlparse import urlparse
 from sql.functions import Extract
 from sql.conditionals import Coalesce
 from sql.aggregate import Max
@@ -167,7 +168,7 @@ class Collection:
                 if e.localName == 'href':
                     if not e.firstChild:
                         continue
-                    uri = e.firstChild.data
+                    uri = urlparse(e.firstChild.data).path
                     dbname, uri = (uri.lstrip('/').split('/', 1) + [None])[0:2]
                     if not dbname:
                         continue
