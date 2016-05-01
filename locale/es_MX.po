@@ -1054,110 +1054,131 @@ msgctxt "view:calendar.calendar:"
 msgid "Access Permissions"
 msgstr ""
 
+#, fuzzy
 msgctxt "view:calendar.calendar:"
 msgid "Calendar"
-msgstr ""
+msgstr "Calendario"
 
+#, fuzzy
 msgctxt "view:calendar.calendar:"
 msgid "Calendars"
-msgstr ""
+msgstr "Calendarios"
 
 msgctxt "view:calendar.calendar:"
 msgid "General"
 msgstr ""
 
+#, fuzzy
 msgctxt "view:calendar.category:"
 msgid "Categories"
-msgstr ""
+msgstr "Categorías"
 
+#, fuzzy
 msgctxt "view:calendar.category:"
 msgid "Category"
-msgstr ""
+msgstr "Categoría"
 
+#, fuzzy
 msgctxt "view:calendar.event.attendee:"
 msgid "Attendee"
-msgstr ""
+msgstr "Asistentes"
 
+#, fuzzy
 msgctxt "view:calendar.event.attendee:"
 msgid "Attendees"
-msgstr ""
+msgstr "Asistentes"
 
+#, fuzzy
 msgctxt "view:calendar.event.exdate:"
 msgid "Exception Date"
-msgstr ""
+msgstr "Fecha excluida"
 
+#, fuzzy
 msgctxt "view:calendar.event.exdate:"
 msgid "Exception Dates"
-msgstr ""
+msgstr "Fechas excluidas"
 
 msgctxt "view:calendar.event.exdate:"
 msgid "Time"
 msgstr ""
 
+#, fuzzy
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rule"
-msgstr ""
+msgstr "Regla de excepción"
 
+#, fuzzy
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rules"
-msgstr ""
+msgstr "Reglas de excepción"
 
+#, fuzzy
 msgctxt "view:calendar.event.rdate:"
 msgid "Recurrence Date"
-msgstr ""
+msgstr "Fecha de recurrencia"
 
+#, fuzzy
 msgctxt "view:calendar.event.rdate:"
 msgid "Recurrence Dates"
-msgstr ""
+msgstr "Fechas de recurrencia"
 
 msgctxt "view:calendar.event.rdate:"
 msgid "Time"
 msgstr ""
 
+#, fuzzy
 msgctxt "view:calendar.event.rrule:"
 msgid "Recurrence Rule"
-msgstr ""
+msgstr "Regla de recurrencia"
 
+#, fuzzy
 msgctxt "view:calendar.event.rrule:"
 msgid "Recurrence Rules"
-msgstr ""
+msgstr "Reglas de recurrencia"
 
+#, fuzzy
 msgctxt "view:calendar.event:"
 msgid "Attendees"
-msgstr ""
+msgstr "Asistentes"
 
+#, fuzzy
 msgctxt "view:calendar.event:"
 msgid "Categories"
-msgstr ""
+msgstr "Categorías"
 
 msgctxt "view:calendar.event:"
 msgid "End Time"
 msgstr ""
 
+#, fuzzy
 msgctxt "view:calendar.event:"
 msgid "Event"
-msgstr ""
+msgstr "Evento"
 
+#, fuzzy
 msgctxt "view:calendar.event:"
 msgid "Events"
-msgstr ""
+msgstr "Eventos"
 
 msgctxt "view:calendar.event:"
 msgid "General"
 msgstr ""
 
+#, fuzzy
 msgctxt "view:calendar.event:"
 msgid "Occurences"
-msgstr ""
+msgstr "Ocurrencias"
 
 msgctxt "view:calendar.event:"
 msgid "Start Time"
 msgstr ""
 
+#, fuzzy
 msgctxt "view:calendar.location:"
 msgid "Location"
-msgstr ""
+msgstr "Ubicación"
 
+#, fuzzy
 msgctxt "view:calendar.location:"
 msgid "Locations"
-msgstr ""
+msgstr "Ubicación"

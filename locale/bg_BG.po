@@ -434,9 +434,10 @@ msgctxt "field:calendar.event.alarm,write_uid:"
 msgid "Write User"
 msgstr "Променено от"
 
+#, fuzzy
 msgctxt "field:calendar.event.attendee,attendee:"
 msgid "attendee"
-msgstr ""
+msgstr "Присъстващ"
 
 msgctxt "field:calendar.event.attendee,create_date:"
 msgid "Create Date"
