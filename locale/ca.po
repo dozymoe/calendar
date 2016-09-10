@@ -904,9 +904,10 @@ msgctxt "selection:calendar.event,transp:"
 msgid "Transparent"
 msgstr "Transparent"
 
+#, fuzzy
 msgctxt "selection:calendar.event.attendee,status:"
 msgid ""
-msgstr ""
+msgstr "Cancel·lat"
 
 msgctxt "selection:calendar.event.attendee,status:"
 msgid "Accepted"
@@ -956,9 +957,10 @@ msgctxt "selection:calendar.event.exrule,freq:"
 msgid "Yearly"
 msgstr "Anualment"
 
+#, fuzzy
 msgctxt "selection:calendar.event.exrule,wkst:"
 msgid ""
-msgstr ""
+msgstr "Cancel·lat"
 
 msgctxt "selection:calendar.event.exrule,wkst:"
 msgid "Friday"
@@ -1016,9 +1018,10 @@ msgctxt "selection:calendar.event.rrule,freq:"
 msgid "Yearly"
 msgstr "Anualment"
 
+#, fuzzy
 msgctxt "selection:calendar.event.rrule,wkst:"
 msgid ""
-msgstr ""
+msgstr "Cancel·lat"
 
 msgctxt "selection:calendar.event.rrule,wkst:"
 msgid "Friday"
@@ -1053,14 +1056,6 @@ msgid "Access Permissions"
 msgstr "Permisos d'accés"
 
 msgctxt "view:calendar.calendar:"
-msgid "Calendar"
-msgstr "Calendari"
-
-msgctxt "view:calendar.calendar:"
-msgid "Calendars"
-msgstr "Calendaris"
-
-msgctxt "view:calendar.calendar:"
 msgid "General"
 msgstr "General"
 
@@ -1081,14 +1076,6 @@ msgid "Attendees"
 msgstr "Assistents"
 
 msgctxt "view:calendar.event.exdate:"
-msgid "Exception Date"
-msgstr "Data exclosa"
-
-msgctxt "view:calendar.event.exdate:"
-msgid "Exception Dates"
-msgstr "Dates excloses"
-
-msgctxt "view:calendar.event.exdate:"
 msgid "Time"
 msgstr "Hora"
 
@@ -1099,14 +1086,6 @@ msgstr "Regla d'excepció"
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rules"
 msgstr "Regles d'excepcions"
-
-msgctxt "view:calendar.event.rdate:"
-msgid "Recurrence Date"
-msgstr "Data de recurrència"
-
-msgctxt "view:calendar.event.rdate:"
-msgid "Recurrence Dates"
-msgstr "Dates de recurrència"
 
 msgctxt "view:calendar.event.rdate:"
 msgid "Time"
@@ -1131,14 +1110,6 @@ msgstr "Categories"
 msgctxt "view:calendar.event:"
 msgid "End Time"
 msgstr "Temps finalització"
-
-msgctxt "view:calendar.event:"
-msgid "Event"
-msgstr "Esdeveniment"
-
-msgctxt "view:calendar.event:"
-msgid "Events"
-msgstr "Esdeveniments"
 
 msgctxt "view:calendar.event:"
 msgid "General"

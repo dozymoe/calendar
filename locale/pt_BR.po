@@ -870,9 +870,10 @@ msgctxt "selection:calendar.event,classification:"
 msgid "Public"
 msgstr "Público"
 
+#, fuzzy
 msgctxt "selection:calendar.event,status:"
 msgid ""
-msgstr ""
+msgstr "Português (Brasil)"
 
 msgctxt "selection:calendar.event,status:"
 msgid "Cancelled"
@@ -894,9 +895,10 @@ msgctxt "selection:calendar.event,transp:"
 msgid "Transparent"
 msgstr "Transparente"
 
+#, fuzzy
 msgctxt "selection:calendar.event.attendee,status:"
 msgid ""
-msgstr ""
+msgstr "Português (Brasil)"
 
 msgctxt "selection:calendar.event.attendee,status:"
 msgid "Accepted"
@@ -946,9 +948,10 @@ msgctxt "selection:calendar.event.exrule,freq:"
 msgid "Yearly"
 msgstr "Anual"
 
+#, fuzzy
 msgctxt "selection:calendar.event.exrule,wkst:"
 msgid ""
-msgstr ""
+msgstr "Português (Brasil)"
 
 msgctxt "selection:calendar.event.exrule,wkst:"
 msgid "Friday"
@@ -1006,9 +1009,10 @@ msgctxt "selection:calendar.event.rrule,freq:"
 msgid "Yearly"
 msgstr "Anual"
 
+#, fuzzy
 msgctxt "selection:calendar.event.rrule,wkst:"
 msgid ""
-msgstr ""
+msgstr "Português (Brasil)"
 
 msgctxt "selection:calendar.event.rrule,wkst:"
 msgid "Friday"
@@ -1043,14 +1047,6 @@ msgid "Access Permissions"
 msgstr "Permissões de Acesso"
 
 msgctxt "view:calendar.calendar:"
-msgid "Calendar"
-msgstr "Calendário"
-
-msgctxt "view:calendar.calendar:"
-msgid "Calendars"
-msgstr "Agendas"
-
-msgctxt "view:calendar.calendar:"
 msgid "General"
 msgstr "Geral"
 
@@ -1071,14 +1067,6 @@ msgid "Attendees"
 msgstr "Participantes"
 
 msgctxt "view:calendar.event.exdate:"
-msgid "Exception Date"
-msgstr "Data da exceção"
-
-msgctxt "view:calendar.event.exdate:"
-msgid "Exception Dates"
-msgstr "Datas de exceção"
-
-msgctxt "view:calendar.event.exdate:"
 msgid "Time"
 msgstr "Hora"
 
@@ -1089,14 +1077,6 @@ msgstr "Regra de exceção"
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rules"
 msgstr "Regras de exceção"
-
-msgctxt "view:calendar.event.rdate:"
-msgid "Recurrence Date"
-msgstr "Data de recorrência"
-
-msgctxt "view:calendar.event.rdate:"
-msgid "Recurrence Dates"
-msgstr "Datas de Recorrência"
 
 msgctxt "view:calendar.event.rdate:"
 msgid "Time"
@@ -1121,14 +1101,6 @@ msgstr "Categorias"
 msgctxt "view:calendar.event:"
 msgid "End Time"
 msgstr "Hora final"
-
-msgctxt "view:calendar.event:"
-msgid "Event"
-msgstr "Evento"
-
-msgctxt "view:calendar.event:"
-msgid "Events"
-msgstr "Eventos"
 
 msgctxt "view:calendar.event:"
 msgid "General"

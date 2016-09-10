@@ -110,25 +110,30 @@ msgctxt "error:calendar.location:"
 msgid "The name of calendar location must be unique."
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.calendar,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.calendar,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
+#, fuzzy
 msgctxt "field:calendar.calendar,description:"
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
+#, fuzzy
 msgctxt "field:calendar.calendar,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
+#, fuzzy
 msgctxt "field:calendar.calendar,name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
 msgctxt "field:calendar.calendar,owner:"
 msgid "Owner"
@@ -138,113 +143,139 @@ msgctxt "field:calendar.calendar,read_users:"
 msgid "Read Users"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.calendar,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
+#, fuzzy
 msgctxt "field:calendar.calendar,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.calendar,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
 msgctxt "field:calendar.calendar,write_users:"
 msgid "Write Users"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.calendar-read-res.user,calendar:"
 msgid "Calendar"
-msgstr ""
+msgstr "日历"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-read-res.user,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-read-res.user,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-read-res.user,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-read-res.user,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-read-res.user,user:"
 msgid "User"
-msgstr ""
+msgstr "用户"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-read-res.user,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-read-res.user,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-write-res.user,calendar:"
 msgid "Calendar"
-msgstr ""
+msgstr "日历"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-write-res.user,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-write-res.user,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-write-res.user,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-write-res.user,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-write-res.user,user:"
 msgid "User"
-msgstr ""
+msgstr "用户"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-write-res.user,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.calendar-write-res.user,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
+#, fuzzy
 msgctxt "field:calendar.category,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.category,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
+#, fuzzy
 msgctxt "field:calendar.category,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
+#, fuzzy
 msgctxt "field:calendar.category,name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
+#, fuzzy
 msgctxt "field:calendar.category,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
+#, fuzzy
 msgctxt "field:calendar.category,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.category,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
 msgctxt "field:calendar.event,alarms:"
 msgid "Alarms"
@@ -258,9 +289,10 @@ msgctxt "field:calendar.event,attendees:"
 msgid "Attendees"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event,calendar:"
 msgid "Calendar"
-msgstr ""
+msgstr "日历"
 
 msgctxt "field:calendar.event,categories:"
 msgid "Categories"
@@ -270,17 +302,20 @@ msgctxt "field:calendar.event,classification:"
 msgid "Classification"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.event,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
+#, fuzzy
 msgctxt "field:calendar.event,description:"
 msgid "Description"
-msgstr ""
+msgstr "描述"
 
 msgctxt "field:calendar.event,dtend:"
 msgid "End Date"
@@ -298,9 +333,10 @@ msgctxt "field:calendar.event,exrules:"
 msgid "Exception Rules"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
 msgctxt "field:calendar.event,location:"
 msgid "Location"
@@ -314,17 +350,19 @@ msgctxt "field:calendar.event,organizer:"
 msgid "Organizer"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event,parent:"
 msgid "Parent"
-msgstr ""
+msgstr "上级"
 
 msgctxt "field:calendar.event,rdates:"
 msgid "Recurrence Dates"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
 msgctxt "field:calendar.event,recurrence:"
 msgid "Recurrence"
@@ -334,17 +372,19 @@ msgctxt "field:calendar.event,rrules:"
 msgid "Recurrence Rules"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event,sequence:"
 msgid "Sequence"
-msgstr ""
+msgstr "序列"
 
 msgctxt "field:calendar.event,status:"
 msgid "Status"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event,summary:"
 msgid "Summary"
-msgstr ""
+msgstr "摘要"
 
 msgctxt "field:calendar.event,timezone:"
 msgid "Timezone"
@@ -362,153 +402,181 @@ msgctxt "field:calendar.event,vevent:"
 msgid "vevent"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.event,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
 msgctxt "field:calendar.event-calendar.category,category:"
 msgid "Category"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event-calendar.category,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.event-calendar.category,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
 msgctxt "field:calendar.event-calendar.category,event:"
 msgid "Event"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event-calendar.category,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
+#, fuzzy
 msgctxt "field:calendar.event-calendar.category,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
+#, fuzzy
 msgctxt "field:calendar.event-calendar.category,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.event-calendar.category,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
+#, fuzzy
 msgctxt "field:calendar.event.alarm,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.event.alarm,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
 msgctxt "field:calendar.event.alarm,event:"
 msgid "Event"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.alarm,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
+#, fuzzy
 msgctxt "field:calendar.event.alarm,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
 msgctxt "field:calendar.event.alarm,valarm:"
 msgid "valarm"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.alarm,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.event.alarm,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
 msgctxt "field:calendar.event.attendee,attendee:"
 msgid "attendee"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.attendee,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.event.attendee,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
+#, fuzzy
 msgctxt "field:calendar.event.attendee,email:"
 msgid "Email"
-msgstr ""
+msgstr "电子邮箱"
 
 msgctxt "field:calendar.event.attendee,event:"
 msgid "Event"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.attendee,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
+#, fuzzy
 msgctxt "field:calendar.event.attendee,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
 msgctxt "field:calendar.event.attendee,status:"
 msgid "Participation Status"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.attendee,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.event.attendee,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
+#, fuzzy
 msgctxt "field:calendar.event.exdate,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.event.exdate,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
 msgctxt "field:calendar.event.exdate,date:"
 msgid "Is Date"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.exdate,datetime:"
 msgid "Date"
-msgstr ""
+msgstr "日期格式"
 
 msgctxt "field:calendar.event.exdate,event:"
 msgid "Event"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.exdate,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
+#, fuzzy
 msgctxt "field:calendar.event.exdate,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
+#, fuzzy
 msgctxt "field:calendar.event.exdate,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.event.exdate,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
 msgctxt "field:calendar.event.exrule,byday:"
 msgid "By Day"
@@ -550,13 +618,15 @@ msgctxt "field:calendar.event.exrule,count:"
 msgid "Count"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.exrule,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.event.exrule,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
 msgctxt "field:calendar.event.exrule,event:"
 msgid "Event"
@@ -566,17 +636,19 @@ msgctxt "field:calendar.event.exrule,freq:"
 msgid "Frequency"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.exrule,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
 msgctxt "field:calendar.event.exrule,interval:"
 msgid "Interval"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.exrule,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
 msgctxt "field:calendar.event.exrule,until:"
 msgid "Until Date"
@@ -590,49 +662,58 @@ msgctxt "field:calendar.event.exrule,wkst:"
 msgid "Week Day"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.exrule,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.event.exrule,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
+#, fuzzy
 msgctxt "field:calendar.event.rdate,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.event.rdate,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
 msgctxt "field:calendar.event.rdate,date:"
 msgid "Is Date"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.rdate,datetime:"
 msgid "Date"
-msgstr ""
+msgstr "日期格式"
 
 msgctxt "field:calendar.event.rdate,event:"
 msgid "Event"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.rdate,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
+#, fuzzy
 msgctxt "field:calendar.event.rdate,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
+#, fuzzy
 msgctxt "field:calendar.event.rdate,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.event.rdate,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
 msgctxt "field:calendar.event.rrule,byday:"
 msgid "By Day"
@@ -674,13 +755,15 @@ msgctxt "field:calendar.event.rrule,count:"
 msgid "Count"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.rrule,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.event.rrule,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
 msgctxt "field:calendar.event.rrule,event:"
 msgid "Event"
@@ -690,17 +773,19 @@ msgctxt "field:calendar.event.rrule,freq:"
 msgid "Frequency"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.rrule,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
 msgctxt "field:calendar.event.rrule,interval:"
 msgid "Interval"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.rrule,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
 msgctxt "field:calendar.event.rrule,until:"
 msgid "Until Date"
@@ -714,41 +799,50 @@ msgctxt "field:calendar.event.rrule,wkst:"
 msgid "Week Day"
 msgstr ""
 
+#, fuzzy
 msgctxt "field:calendar.event.rrule,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.event.rrule,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
+#, fuzzy
 msgctxt "field:calendar.location,create_date:"
 msgid "Create Date"
-msgstr ""
+msgstr "创建日期:"
 
+#, fuzzy
 msgctxt "field:calendar.location,create_uid:"
 msgid "Create User"
-msgstr ""
+msgstr "添加用户"
 
+#, fuzzy
 msgctxt "field:calendar.location,id:"
 msgid "ID"
-msgstr ""
+msgstr "编号"
 
+#, fuzzy
 msgctxt "field:calendar.location,name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
+#, fuzzy
 msgctxt "field:calendar.location,rec_name:"
 msgid "Name"
-msgstr ""
+msgstr "纳木"
 
+#, fuzzy
 msgctxt "field:calendar.location,write_date:"
 msgid "Write Date"
-msgstr ""
+msgstr "写入日期"
 
+#, fuzzy
 msgctxt "field:calendar.location,write_uid:"
 msgid "Write User"
-msgstr ""
+msgstr "写入帐号"
 
 msgctxt "field:res.user,calendars:"
 msgid "Calendars"
@@ -778,9 +872,10 @@ msgctxt "help:calendar.event.rrule,until_date:"
 msgid "Ignore time of field \"Until Date\", but handle as date only."
 msgstr ""
 
+#, fuzzy
 msgctxt "model:calendar.calendar,name:"
 msgid "Calendar"
-msgstr ""
+msgstr "日历"
 
 msgctxt "model:calendar.calendar-read-res.user,name:"
 msgid "Calendar - read - User"
@@ -842,9 +937,10 @@ msgctxt "model:ir.action,name:act_event_form3"
 msgid "Events"
 msgstr ""
 
+#, fuzzy
 msgctxt "model:ir.ui.menu,name:menu_calendar"
 msgid "Calendar"
-msgstr ""
+msgstr "日历"
 
 msgctxt "model:ir.ui.menu,name:menu_calendar_form"
 msgid "Calendars"
@@ -1038,21 +1134,15 @@ msgctxt "selection:calendar.event.rrule,wkst:"
 msgid "Wednesday"
 msgstr ""
 
+#, fuzzy
 msgctxt "view:calendar.calendar:"
 msgid "Access Permissions"
-msgstr ""
+msgstr "操作权限"
 
-msgctxt "view:calendar.calendar:"
-msgid "Calendar"
-msgstr ""
-
-msgctxt "view:calendar.calendar:"
-msgid "Calendars"
-msgstr ""
-
+#, fuzzy
 msgctxt "view:calendar.calendar:"
 msgid "General"
-msgstr ""
+msgstr "基本"
 
 msgctxt "view:calendar.category:"
 msgid "Categories"
@@ -1071,14 +1161,6 @@ msgid "Attendees"
 msgstr ""
 
 msgctxt "view:calendar.event.exdate:"
-msgid "Exception Date"
-msgstr ""
-
-msgctxt "view:calendar.event.exdate:"
-msgid "Exception Dates"
-msgstr ""
-
-msgctxt "view:calendar.event.exdate:"
 msgid "Time"
 msgstr ""
 
@@ -1088,14 +1170,6 @@ msgstr ""
 
 msgctxt "view:calendar.event.exrule:"
 msgid "Exception Rules"
-msgstr ""
-
-msgctxt "view:calendar.event.rdate:"
-msgid "Recurrence Date"
-msgstr ""
-
-msgctxt "view:calendar.event.rdate:"
-msgid "Recurrence Dates"
 msgstr ""
 
 msgctxt "view:calendar.event.rdate:"
@@ -1122,17 +1196,10 @@ msgctxt "view:calendar.event:"
 msgid "End Time"
 msgstr ""
 
-msgctxt "view:calendar.event:"
-msgid "Event"
-msgstr ""
-
-msgctxt "view:calendar.event:"
-msgid "Events"
-msgstr ""
-
+#, fuzzy
 msgctxt "view:calendar.event:"
 msgid "General"
-msgstr ""
+msgstr "基本"
 
 msgctxt "view:calendar.event:"
 msgid "Occurences"
