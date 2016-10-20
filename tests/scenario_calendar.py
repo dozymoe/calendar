@@ -13,7 +13,7 @@ import vobject
 from proteus import config, Model, Wizard
 
 
-def install_module(name, config):
+def activate_module(name, config):
     Module = Model.get('ir.module')
     module, = Module.find([('name', '=', name)])
     if module.state != 'installed':
@@ -169,7 +169,7 @@ if __name__ == '__main__':
     user = urlparse(options.url).username
     assert xmlrpc_user == user
     assert user != 'foo'
-    install_module('calendar', config)
+    activate_module('calendar', config)
     configure_user(user, config)
     configure_user('foo', config)
     configure_user('bar', config)
