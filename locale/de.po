@@ -881,7 +881,7 @@ msgstr "Öffentlich"
 
 msgctxt "selection:calendar.event,status:"
 msgid ""
-msgstr " "
+msgstr ""
 
 msgctxt "selection:calendar.event,status:"
 msgid "Cancelled"
@@ -905,7 +905,7 @@ msgstr "Transparent"
 
 msgctxt "selection:calendar.event.attendee,status:"
 msgid ""
-msgstr " "
+msgstr ""
 
 msgctxt "selection:calendar.event.attendee,status:"
 msgid "Accepted"
@@ -957,7 +957,7 @@ msgstr "Jährlich"
 
 msgctxt "selection:calendar.event.exrule,wkst:"
 msgid ""
-msgstr " "
+msgstr ""
 
 msgctxt "selection:calendar.event.exrule,wkst:"
 msgid "Friday"
@@ -1017,7 +1017,7 @@ msgstr "Jährlich"
 
 msgctxt "selection:calendar.event.rrule,wkst:"
 msgid ""
-msgstr " "
+msgstr ""
 
 msgctxt "selection:calendar.event.rrule,wkst:"
 msgid "Friday"
@@ -1055,45 +1055,13 @@ msgctxt "view:calendar.calendar:"
 msgid "General"
 msgstr "Allgemein"
 
-msgctxt "view:calendar.category:"
-msgid "Categories"
-msgstr "Kategorien"
-
-msgctxt "view:calendar.category:"
-msgid "Category"
-msgstr "Kategorie"
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendee"
-msgstr "Teilnehmer"
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendees"
-msgstr "Teilnehmer"
-
 msgctxt "view:calendar.event.exdate:"
 msgid "Time"
 msgstr "Zeit"
 
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rule"
-msgstr "Ausnahmeregel"
-
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rules"
-msgstr "Ausnahmeregeln"
-
 msgctxt "view:calendar.event.rdate:"
 msgid "Time"
 msgstr "Zeit"
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rule"
-msgstr "Wiederholungsregel"
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rules"
-msgstr "Wiederholungsregeln"
 
 msgctxt "view:calendar.event:"
 msgid "Attendees"

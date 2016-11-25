@@ -1054,45 +1054,13 @@ msgctxt "view:calendar.calendar:"
 msgid "General"
 msgstr "Général"
 
-msgctxt "view:calendar.category:"
-msgid "Categories"
-msgstr "Catégories"
-
-msgctxt "view:calendar.category:"
-msgid "Category"
-msgstr "Catégorie"
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendee"
-msgstr "Participant"
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendees"
-msgstr "Participants"
-
 msgctxt "view:calendar.event.exdate:"
 msgid "Time"
 msgstr "Heure"
 
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rule"
-msgstr "Règle d'exception"
-
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rules"
-msgstr "Règles d'exception"
-
 msgctxt "view:calendar.event.rdate:"
 msgid "Time"
 msgstr "Heure"
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rule"
-msgstr "Règle de récurrence"
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rules"
-msgstr "Règles de récurrence"
 
 msgctxt "view:calendar.event:"
 msgid "Attendees"

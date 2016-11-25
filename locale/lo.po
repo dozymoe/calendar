@@ -158,9 +158,10 @@ msgctxt "field:calendar.calendar,write_uid:"
 msgid "Write User"
 msgstr "ສ້າງຜູ້ໃຊ້"
 
+#, fuzzy
 msgctxt "field:calendar.calendar,write_users:"
 msgid "Write Users"
-msgstr ""
+msgstr "ສ້າງຜູ້ໃຊ້"
 
 msgctxt "field:calendar.calendar-read-res.user,calendar:"
 msgid "Calendar"
@@ -1152,48 +1153,14 @@ msgid "General"
 msgstr "ທົ່ວໄປ"
 
 #, fuzzy
-msgctxt "view:calendar.category:"
-msgid "Categories"
-msgstr "ໝວດ"
-
-#, fuzzy
-msgctxt "view:calendar.category:"
-msgid "Category"
-msgstr "ໝວດ"
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendee"
-msgstr ""
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendees"
-msgstr ""
-
-#, fuzzy
 msgctxt "view:calendar.event.exdate:"
 msgid "Time"
 msgstr "ເວລາ"
-
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rule"
-msgstr ""
-
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rules"
-msgstr ""
 
 #, fuzzy
 msgctxt "view:calendar.event.rdate:"
 msgid "Time"
 msgstr "ເວລາ"
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rule"
-msgstr ""
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rules"
-msgstr ""
 
 msgctxt "view:calendar.event:"
 msgid "Attendees"

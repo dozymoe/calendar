@@ -158,9 +158,10 @@ msgctxt "field:calendar.calendar,write_uid:"
 msgid "Write User"
 msgstr "写入帐号"
 
+#, fuzzy
 msgctxt "field:calendar.calendar,write_users:"
 msgid "Write Users"
-msgstr ""
+msgstr "写入帐号"
 
 #, fuzzy
 msgctxt "field:calendar.calendar-read-res.user,calendar:"
@@ -844,9 +845,10 @@ msgctxt "field:calendar.location,write_uid:"
 msgid "Write User"
 msgstr "写入帐号"
 
+#, fuzzy
 msgctxt "field:res.user,calendars:"
 msgid "Calendars"
-msgstr ""
+msgstr "日历"
 
 msgctxt "help:calendar.calendar,owner:"
 msgid "The user must have an email"
@@ -925,9 +927,10 @@ msgctxt "model:calendar.location,name:"
 msgid "Location"
 msgstr ""
 
+#, fuzzy
 msgctxt "model:ir.action,name:act_calendar_form"
 msgid "Calendars"
-msgstr ""
+msgstr "日历"
 
 msgctxt "model:ir.action,name:act_event_form"
 msgid "Events"
@@ -942,9 +945,10 @@ msgctxt "model:ir.ui.menu,name:menu_calendar"
 msgid "Calendar"
 msgstr "日历"
 
+#, fuzzy
 msgctxt "model:ir.ui.menu,name:menu_calendar_form"
 msgid "Calendars"
-msgstr ""
+msgstr "日历"
 
 msgctxt "model:ir.ui.menu,name:menu_event_form"
 msgid "Events"
@@ -1144,44 +1148,12 @@ msgctxt "view:calendar.calendar:"
 msgid "General"
 msgstr "基本"
 
-msgctxt "view:calendar.category:"
-msgid "Categories"
-msgstr ""
-
-msgctxt "view:calendar.category:"
-msgid "Category"
-msgstr ""
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendee"
-msgstr ""
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendees"
-msgstr ""
-
 msgctxt "view:calendar.event.exdate:"
 msgid "Time"
 msgstr ""
 
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rule"
-msgstr ""
-
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rules"
-msgstr ""
-
 msgctxt "view:calendar.event.rdate:"
 msgid "Time"
-msgstr ""
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rule"
-msgstr ""
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rules"
 msgstr ""
 
 msgctxt "view:calendar.event:"
@@ -1207,12 +1179,4 @@ msgstr ""
 
 msgctxt "view:calendar.event:"
 msgid "Start Time"
-msgstr ""
-
-msgctxt "view:calendar.location:"
-msgid "Location"
-msgstr ""
-
-msgctxt "view:calendar.location:"
-msgid "Locations"
 msgstr ""

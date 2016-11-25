@@ -1046,45 +1046,13 @@ msgctxt "view:calendar.calendar:"
 msgid "General"
 msgstr "Splošno"
 
-msgctxt "view:calendar.category:"
-msgid "Categories"
-msgstr "Kategorije"
-
-msgctxt "view:calendar.category:"
-msgid "Category"
-msgstr "Kategorija"
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendee"
-msgstr "Navzoči"
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendees"
-msgstr "Navzoči"
-
 msgctxt "view:calendar.event.exdate:"
 msgid "Time"
 msgstr "Čas"
 
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rule"
-msgstr "Izjemno pravilo"
-
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rules"
-msgstr "Izjemna pravila"
-
 msgctxt "view:calendar.event.rdate:"
 msgid "Time"
 msgstr "Čas"
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rule"
-msgstr "Pravilo ponovitve"
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rules"
-msgstr "Pravila ponovitev"
 
 msgctxt "view:calendar.event:"
 msgid "Attendees"

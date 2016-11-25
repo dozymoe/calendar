@@ -1069,47 +1069,15 @@ msgctxt "view:calendar.calendar:"
 msgid "General"
 msgstr "Основен"
 
-msgctxt "view:calendar.category:"
-msgid "Categories"
-msgstr "Категории"
-
-msgctxt "view:calendar.category:"
-msgid "Category"
-msgstr "Категория"
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendee"
-msgstr "Присъстващ"
-
-msgctxt "view:calendar.event.attendee:"
-msgid "Attendees"
-msgstr "Присъстващи"
-
 #, fuzzy
 msgctxt "view:calendar.event.exdate:"
 msgid "Time"
 msgstr "Време"
 
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rule"
-msgstr "Правило при грешка"
-
-msgctxt "view:calendar.event.exrule:"
-msgid "Exception Rules"
-msgstr "Правила при грешка"
-
 #, fuzzy
 msgctxt "view:calendar.event.rdate:"
 msgid "Time"
 msgstr "Време"
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rule"
-msgstr "Правило за повторение"
-
-msgctxt "view:calendar.event.rrule:"
-msgid "Recurrence Rules"
-msgstr "Правила за повторяемост"
 
 msgctxt "view:calendar.event:"
 msgid "Attendees"
