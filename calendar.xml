@@ -240,7 +240,7 @@ this repository contains the full copyright notices and license terms. -->
             <field name="name">Events</field>
             <field name="res_model">calendar.event</field>
             <field name="domain"
-                eval="[('parent', '=', None), ('calendar', 'in', Eval('active_ids'))]"
+                eval="[('parent', '=', None), If(Eval('active_ids', []) == [Eval('active_id')], ('calendar', '=', Eval('active_id')), ('calendar', 'in', Eval('active_ids')))]"
                 pyson="1"/>
         </record>
         <record model="ir.action.act_window.view" id="act_event_form3_view1">
